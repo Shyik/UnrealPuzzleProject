@@ -3,6 +3,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Engine/TriggerVolume.h"
+#include "Engine/TriggerCapsule.h"
 #include "Components/PrimitiveComponent.h"
 #include "Components/AudioComponent.h"
 #include "DoorOpen.generated.h"

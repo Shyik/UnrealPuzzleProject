@@ -34,7 +34,7 @@ void UWorldPosition::BeginPlay()
 	//UE_LOG(LogTemp, Error, TEXT("Hello Welt"));
 	/*UE_LOG(LogTemp, Error, TEXT("Mein Text:  %s"), **MeinLogZeiger);
 	UE_LOG(LogTemp, Warning, TEXT("Name:  %s"), *Name);*/
-	UE_LOG(LogTemp, Warning, TEXT("%s"), *WorldPos.ToCompactString());
+	//UE_LOG(LogTemp, Warning, TEXT("%s"), *WorldPos.ToCompactString());
 	
 }
 
