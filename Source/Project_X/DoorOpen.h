@@ -27,13 +27,13 @@ public:
 	float StartRotation;
 
 	UPROPERTY(EditAnywhere)
-	float DoorAngle = 90.0f;
+	float DoorAngle;
 
 	UPROPERTY(EditAnywhere)
 	float DoorSpeed = 1.0f;
 
 	UPROPERTY(EditAnywhere)
-	float DoorCloseDelay = 2.0f;
+	float DoorCloseDelay = 1.5f;
 
 	UPROPERTY(VisibleAnywhere)
 	float DoorLastOpen;
